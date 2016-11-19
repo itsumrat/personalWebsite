@@ -1,0 +1,14 @@
+/*
+ * Default
+ * 
+ */
+
+.body-container {
+	@include make-container;
+	background-color: #F3F4F9;
+	max-width: $body-max-width;
+
+	@include media("<sm") {
+		padding: 0;
+	} 
+}

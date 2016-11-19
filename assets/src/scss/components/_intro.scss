@@ -1,0 +1,8 @@
+#intro {
+
+	.intro {
+		h1 {
+			@include heading-font(64px);
+		}
+	}
+}
